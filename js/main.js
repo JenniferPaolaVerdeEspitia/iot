@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
       msgText.innerHTML = "Consultando al asistente...";
 
       // Enviar el mensaje al servidor PHP
-      fetch("http://34.236.237.105/iot/api-gpt-php/endpoints/chat.php", {
+      fetch("http://54.157.103.115/iot/api-gpt-php/endpoints/chat.php", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
